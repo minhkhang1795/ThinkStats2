@@ -130,3 +130,14 @@ Operation: Calculate Proportional Percentage
 def CalculateProportionalPercentage(groupResults, variable='depression_lvl'):
     _, perc = CalculatePercentages(groupResults, variable=variable)
     return perc, perc[1] / perc[0]  # Proportional percentage of depression (High / Low)
+
+
+"""
+Helper function that plot a line with given CI
+"""
+
+
+def plotLineWithCI(ax, x, y, cis, label=None, color='blue', alpha=1, linewidth=2):
+    ax.scatter(x, y, color=color, alpha=alpha / 1.2, linewidth=linewidth / 2)
+    ax.fill_between(x, cis[0], cis[1], where=cis[0] <= cis[1], facecolor=color, alpha=alpha / 10, interpolate=True)
+    return ax.plot(x, y, label=label, color=color, alpha=alpha / 2, linewidth=linewidth)
