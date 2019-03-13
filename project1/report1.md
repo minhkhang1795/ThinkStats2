@@ -1,24 +1,20 @@
 # Associations between screen time and kids' mental health
 
-### MinhKhang Vu
+### MinhKhang Vu, March 2019.
 
-#### Overview
-In this project, I'd like to use the Census Bureau’s 2017 [National Survey of Children’s Health (NSCH)](https://www.census.gov/data/datasets/2017/demo/nsch/nsch2017.html) to explore the relationship between children's screen time and their mental health. Currently, I've successfully obtained and loaded the data into Jupyter Notebook. I also looked at the codebook and explored various variables that could be used in my project.
+#### Introduction
+Previous research on children and adolescents has suggested strong associations between screen time and their mental health, contributing to growing concerns among parents, teachers, counselors and doctors.
 
-The main question I want to answer is **How does children's screen time relate to their mental health?** Recently, I came across the article "There’s Worrying New Research About Kids’ Screen Time and Their Mental Health", and become interested in this topic. In the article, the author of the study found "a clear and strong association" between more screen time and lower wellbeing. She expressed a concern that digital technology can have a negative effect on health and wellbeing of children. However, there might not be a direct correlation between kids' screen time and mental health as other researchers argued that anxious and depressed kids tend to spend more time using screens. Whether screen time affects children's wellbeing is questionable, but this study still provides an important insight into children's health and wellbeing.
+#### Methods
+Using the Census Bureau’s 2017 National Survey of Children’s Health (NSCH), I investigated a large (n=21,599) national random sample of 0- to 17-year-old children in the U.S. in 2017. The NSCH collects data on the physical and emotional health of American children every year, which includes information about their screen time usage and other comprehensive well-being measures.
 
-**First step:** I'm currently trying to validate the association between screen time and children's wellbeing pointed out in the article. I plotted the screen time usage versus whether the kids received mental treatment during the past year (answered by their parents), and got the result that supports the article. Children spending more screen time tend to need mental treatments than children spending less screen time.
+#### Results
+Children who spend 3 hours or more daily using computers are twice more likely to have an anxiety problem (CI 2.06 2.38) and four times more likely to experience depression (CI 3.97 5.11) than those who spend less than 3 hours. For kids spending 4 hours or more with computers, about 16% of them have some anxiety problems (CI 14.98 17.07), and 11% of them experience depression recently (CI 9.73 11.61). Along with the associations between screen time and diagnoses of anxiety and depression, how frequently a family has meals together also has strong linear relationships with both their children's screen time and mental health. Children who do not have any meal with their family during the past week are twice more likely to have anxiety than children who have meals with their family every day. However, in this study, I could not find any strong associations between the severity of kids' mental illness and screen time, which leaves an open question, whether screen time directly affects children's mental health.
 
-![plot](https://github.com/minhkhang1795/ThinkStats2/blob/master/project1/screen-time-vs-mental-treatment.jpg)
+![Screen time vs Percentages](https://github.com/minhkhang1795/ThinkStats2/blob/master/project1/screen-time-vs-percentages.png)
 
-**Next steps:** I'd like to
-- Explore whether this association is consistent across different years. As far as I know, the NSCH 2016 is available for public use. However, data prior to 2016 might not be.
-- Use other variables that relate directly to anxiety and depression.
-- Look into some specific age groups.
-- Explore other relationships such as screen time versus performance in school, or mental health versus how often their families have meal together.
+![Family meals](https://github.com/minhkhang1795/ThinkStats2/blob/master/project1/family-meals.png)
 
-#### Guidelines for Data Use
-According to the 2017 NSCN's [Guidelines for Data Use](https://www.census.gov/content/dam/Census/programs-surveys/nsch/tech-documentation/methodology/2017-NSCH-FAQs.pdf), users can use the data for statistical reporting and analysis. Also, users must not use the data to identify any respondents, inadvertently or otherwise. Finally, prior to releasing any statistics to the public, the Census Bureau conducts reviews to ensure that no information or characteristics can identify any individual.
+![Screen time vs Severity](https://github.com/minhkhang1795/ThinkStats2/blob/master/project1/screen-time-vs-severity.png)
 
-#### Citation
-The United States Census Bureau, Associate Director of Demographic Programs, National Survey of Children’s Health. 2017 National Survey of Children’s Health Frequently Asked Questions. September 2018. Available from: https://www.census.gov/content/dam/Census/programs-surveys/nsch/techdocumentation/methodology/NSCH%202016%20FAQs.pdf
+#### Discussion
