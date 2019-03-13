@@ -54,7 +54,6 @@ docs/_build/
 
 *.pdf
 *.eps
-*.png
 *~
 
 # OS X Files
