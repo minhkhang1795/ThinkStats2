@@ -1,4 +1,4 @@
-# Association between screen time and kids' mental health
+# Associations between screen time and kids' mental health
 
 ### MinhKhang Vu
 
