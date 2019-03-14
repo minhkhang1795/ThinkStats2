@@ -1,8 +1,8 @@
 # Associations between screen time and kids' mental health
 
-### MinhKhang Vu
+## MinhKhang Vu
 
-#### Overview
+### Overview
 In this project, I'd like to use the Census Bureau’s 2017 [National Survey of Children’s Health (NSCH)](https://www.census.gov/data/datasets/2017/demo/nsch/nsch2017.html) to explore the relationship between children's screen time and their mental health. Currently, I've successfully obtained and loaded the data into Jupyter Notebook. I also looked at the codebook and explored various variables that could be used in my project.
 
 The main question I want to answer is **How does children's screen time relate to their mental health?** Recently, I came across the article "There’s Worrying New Research About Kids’ Screen Time and Their Mental Health", and become interested in this topic. In the article, the author of the study found "a clear and strong association" between more screen time and lower wellbeing. She expressed a concern that digital technology can have a negative effect on health and wellbeing of children. However, there might not be a direct correlation between kids' screen time and mental health as other researchers argued that anxious and depressed kids tend to spend more time using screens. Whether screen time affects children's wellbeing is questionable, but this study still provides an important insight into children's health and wellbeing.
@@ -17,8 +17,8 @@ The main question I want to answer is **How does children's screen time relate t
 - Look into some specific age groups.
 - Explore other relationships such as screen time versus performance in school, or mental health versus how often their families have meal together.
 
-#### Guidelines for Data Use
+### Guidelines for Data Use
 According to the 2017 NSCN's [Guidelines for Data Use](https://www.census.gov/content/dam/Census/programs-surveys/nsch/tech-documentation/methodology/2017-NSCH-FAQs.pdf), users can use the data for statistical reporting and analysis. Also, users must not use the data to identify any respondents, inadvertently or otherwise. Finally, prior to releasing any statistics to the public, the Census Bureau conducts reviews to ensure that no information or characteristics can identify any individual.
 
-#### Citation
+### Citation
 The United States Census Bureau, Associate Director of Demographic Programs, National Survey of Children’s Health. 2017 National Survey of Children’s Health Frequently Asked Questions. September 2018. Available from: https://www.census.gov/content/dam/Census/programs-surveys/nsch/techdocumentation/methodology/NSCH%202016%20FAQs.pdf
