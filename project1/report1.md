@@ -5,6 +5,10 @@
 ### 1. Introduction
 Previous research on children and adolescents has suggested strong associations between screen time and their mental health, contributing to growing concerns among parents, teachers, counselors and doctors about digital technology's negative effects on children. According to the article [There’s Worrying New Research About Kids’ Screen Time and Their Mental Health](http://time.com/5437607/smartphones-teens-mental-health/), a new study published in the journal _Preventive Medicine Reports_ last year suggested "a clear and strong association" between more screen time and lower wellbeing among children. However, there might not be a direct correlation between kids' screen time and mental health as other researchers argued that anxious and depressed kids tend to spend more time using screens. Whether screen time affects children's wellbeing is questionable, but this study still provides an important insight into children's health and wellbeing.
 
+![Cat Image](https://github.com/minhkhang1795/ThinkStats2/blob/master/project1/cat-image.jpg)
+
+_Caption: Time spent on screens among children contributes to growing concerns about the negative effect of digital technology on children._
+
 Reading the article, I couldn't find many useful statistics to support the relationship between screen time and children's mental health. Therefore, I'd like to explore whether this relationship exists and present the results with clear visualizations. In this project, I used the Census Bureau’s 2017 [National Survey of Children’s Health (NSCH)](https://www.census.gov/data/datasets/2017/demo/nsch/nsch2017.html) to investigate how children's screen time relates to their mental health. Besides the main question, I also experimented with other variables and found out that how often a family has meals together is also associated with their kids' screen time and mental health.
 
 ### 2. Methods
